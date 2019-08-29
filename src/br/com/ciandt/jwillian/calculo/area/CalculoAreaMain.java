@@ -1,4 +1,4 @@
-package br.com.ciandt.login.calculo.area;
+package br.com.ciandt.jwillian.calculo.area;
 
 public class CalculoAreaMain {
 

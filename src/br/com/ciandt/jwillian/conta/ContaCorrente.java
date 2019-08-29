@@ -17,7 +17,7 @@ public class ContaCorrente extends Conta {
 			System.out.println("Saldo insuficiente, para saque no valor de R$" + vlrSaque);
 		} else if (vlrSaque < this.getSaldo()) {
 			super.sacar(vlrSaque);
-		} else if (vlrSaque > this.getSaldo() && vlrSaque <= (this.getSaldo() + this.limite)) {
+		} else { 
 			super.sacar(vlrSaque);
 			this.limite -= -getSaldo();
 		}

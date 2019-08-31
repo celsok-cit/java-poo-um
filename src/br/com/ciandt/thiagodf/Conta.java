@@ -10,6 +10,8 @@ public class Conta {
 	
 	private double saldo;
 	private double deposito;
+	private double saque;
+	
 	
 	// Gets
 	public double getSaldo() {
@@ -18,10 +20,16 @@ public class Conta {
 	public double getDeposito() {
 		return deposito;
 	}
+	public double getSaque() {
+		return saque;
+	}
 	
 	// Sets
 	public void setDeposito(double deposito) {
 		saldo = saldo + deposito;
+	}
+	public void setSaque(double saque) {
+		saldo = saldo - saque;
 	}
 	
 }

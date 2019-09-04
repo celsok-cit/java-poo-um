@@ -50,7 +50,7 @@ public class ContaCorrenteMain {
 		ccG.sacar(70);
 		ccH.sacar(150);
 		
-		//Saida esperada da segunda tabela 9b
+		//Saída esperada da segunda tabela 9b
 		System.out.println("Saída esperada da segunda tabela 9b:\n");
 		ccE.sacar(151); //saque 
 		System.out.println("Saldo conta E: R$ " + ccE.getSaldo());

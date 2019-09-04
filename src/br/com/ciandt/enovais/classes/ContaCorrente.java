@@ -2,17 +2,17 @@ package br.com.ciandt.enovais.classes;
 
 public class ContaCorrente extends Conta {
 	
-	private int limite;
+	private double limite;
 	
-	public ContaCorrente(int limite) {
+	public ContaCorrente(double limite) {
 		this.limite = limite;
 	}
 	
-	public int getLimite() {
+	public double getLimite() {
 		return this.limite;
 	}
 	
-	public void sacar(int valor) {
+	public void sacar(double valor) {
 		if(valor > (getSaldo() + limite)) {
 			System.out.println("Saldo insuficiente");
 		} else if(valor < getSaldo()) {

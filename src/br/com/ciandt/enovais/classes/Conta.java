@@ -8,11 +8,11 @@ public class Conta {
 		return this.saldo;
 	}
 
-	public void depositar(int valor) {
+	public void depositar(double valor) {
 		this.saldo += valor;
 	}
 	
-	public void sacar(int valor) {
+	public void sacar(double valor) {
 		this.saldo -= valor;
 	}
 	
